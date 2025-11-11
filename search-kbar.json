@@ -5,40 +5,11 @@
     "subtitle": "Invalid Date"
   },
   {
-    "id": "website/github-custom-domain",
-    "name": "Deploy Next.js ke GitHub Pages dengan Custom Domain Gratis",
-    "section": "CONTENT",
-    "href": "/teub-86/blog/website/github-custom-domain",
-    "subtitle": "October 10, 2025",
-    "keywords": [
-      "GitHub-Actions",
-      "deploy",
-      "custom-domain",
-      "artikel"
-    ]
-  },
-  {
-    "id": "website/konfigurtasi-blog",
-    "name": "Konfigurasi Lengkap Next.js Blog (teub-86)",
-    "section": "CONTENT",
-    "href": "/teub-86/blog/website/konfigurtasi-blog",
-    "subtitle": "October 8, 2025",
-    "keywords": [
-      "static-web",
-      "blog",
-      "deploy",
-      "github",
-      "contentlayer",
-      "tailwind",
-      "eslint"
-    ]
-  },
-  {
     "id": "markdown/github-markdown-guide",
     "name": "Panduan Markdown",
     "section": "CONTENT",
     "href": "/teub-86/blog/markdown/github-markdown-guide",
-    "subtitle": "October 7, 2025",
+    "subtitle": "7 Oktober 2025",
     "keywords": [
       "github",
       "panduan",
@@ -52,7 +23,7 @@
     "name": "Panduan Penulisan Formula Matematika dalam Block Markdown",
     "section": "CONTENT",
     "href": "/teub-86/blog/markdown/math-formula-guide",
-    "subtitle": "October 7, 2025",
+    "subtitle": "7 Oktober 2025",
     "keywords": [
       "markdown",
       "formula",
@@ -60,27 +31,11 @@
     ]
   },
   {
-    "id": "rjpp",
-    "name": "RJPP - Rencana Jangka Panjang Pabrik",
-    "section": "CONTENT",
-    "href": "/teub-86/blog/rjpp",
-    "subtitle": "September 26, 2024",
-    "keywords": [
-      "rencana",
-      "rjpp",
-      "budget",
-      "anggaran",
-      "jangka-panjang",
-      "gcg",
-      "bumn"
-    ]
-  },
-  {
     "id": "AI/patform-ai",
     "name": "Pemanfaatan AI untuk Mendukung Pekerjaan di Industri Petrokimia",
     "section": "CONTENT",
     "href": "/teub-86/blog/AI/patform-ai",
-    "subtitle": "September 20, 2024",
+    "subtitle": "20 September 2024",
     "keywords": [
       "platform-ai",
       "ai",
@@ -89,23 +44,11 @@
     ]
   },
   {
-    "id": "design/openFoam-docker",
-    "name": "OpenFOAM - Open Field Operation and Manipulation",
-    "section": "CONTENT",
-    "href": "/teub-86/blog/design/openFoam-docker",
-    "subtitle": "September 9, 2024",
-    "keywords": [
-      "OpenFOAM",
-      "cfd",
-      "docker"
-    ]
-  },
-  {
     "id": "AI/artikel-ai",
     "name": "Menulis Artikel yang Efektif dengan Prompt Engineering",
     "section": "CONTENT",
     "href": "/teub-86/blog/AI/artikel-ai",
-    "subtitle": "September 8, 2024",
+    "subtitle": "8 September 2024",
     "keywords": [
       "prompt-engineering",
       "ai",
@@ -118,47 +61,11 @@
     "name": "Prompt Engineering",
     "section": "CONTENT",
     "href": "/teub-86/blog/AI/prompt-engineering",
-    "subtitle": "September 8, 2024",
+    "subtitle": "8 September 2024",
     "keywords": [
       "prompt-engineering",
       "ai",
       "gpt"
-    ]
-  },
-  {
-    "id": "website/preview-mode-headless-cms",
-    "name": "Preview Mode for Headless CMS",
-    "section": "CONTENT",
-    "href": "/teub-86/blog/website/preview-mode-headless-cms",
-    "subtitle": "April 9, 2023",
-    "keywords": []
-  },
-  {
-    "id": "website/dynamic-routing-static-regeneration",
-    "name": "Dynamic Routing and Static Regeneration",
-    "section": "CONTENT",
-    "href": "/teub-86/blog/website/dynamic-routing-static-regeneration",
-    "subtitle": "March 4, 2023",
-    "keywords": []
-  },
-  {
-    "id": "website/server-client-components",
-    "name": "Server and Client Components",
-    "section": "CONTENT",
-    "href": "/teub-86/blog/website/server-client-components",
-    "subtitle": "January 8, 2023",
-    "keywords": []
-  },
-  {
-    "id": "website/deploying-next-apps",
-    "name": "Deploying Next.js Apps",
-    "section": "CONTENT",
-    "href": "/teub-86/blog/website/deploying-next-apps",
-    "subtitle": "January 2, 2023",
-    "keywords": [
-      "vercel",
-      "tailwind",
-      "deploy"
     ]
   }
 ]
