@@ -3,7 +3,8 @@
 'use client';
 import siteMetadata from '@/data/siteMetadata';
 import headerNavLinks from '@/data/headerNavLinks';
-import Logo from '@/data/logo75x35.svg';
+//import Logo from '@/data/logo75x35.svg';
+import LabelBox from './LabelBox';
 import Link from './Link';
 import MobileNav from './MobileNav';
 import ThemeSwitch from './ThemeSwitch';
@@ -15,9 +16,7 @@ const Header = () => {
       <div>
         <Link href="/" aria-label={siteMetadata.headerTitle}>
           <div className="flex items-center justify-between">
-            <div className="mr-3 rounded-lg border border-gray-300 shadow-sm dark:border-gray-600">
-              <Logo />
-            </div>
+            <LabelBox text="TEUB-86" bgColor="gradient" glow />
           </div>
         </Link>
       </div>
