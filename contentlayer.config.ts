@@ -50,6 +50,9 @@ const computedFields: ComputedFields = {
   toc: { type: 'string', resolve: (doc) => extractTocHeadings(doc.body.raw) },
 };
 
+// ======================================================
+// 📘 Blog
+// ======================================================
 export const Blog = defineDocumentType(() => ({
   name: 'Blog',
   filePathPattern: 'blog/**/*.mdx',
@@ -65,7 +68,7 @@ export const Blog = defineDocumentType(() => ({
     authors: {
       type: 'list',
       of: { type: 'string' },
-      default: ['default'], // ✅ Set default authors
+      default: ['default'],
     },
     layout: { type: 'string' },
     bibliography: { type: 'string' },
@@ -90,6 +93,9 @@ export const Blog = defineDocumentType(() => ({
   },
 }));
 
+// ======================================================
+// 👤 Authors
+// ======================================================
 export const Authors = defineDocumentType(() => ({
   name: 'Authors',
   filePathPattern: 'authors/**/*.mdx',
@@ -109,18 +115,16 @@ export const Authors = defineDocumentType(() => ({
   computedFields,
 }));
 
+// ======================================================
+// 📄 Page
+// ======================================================
 export const Page = defineDocumentType(() => ({
   name: 'Page',
   filePathPattern: `pages/**/*.mdx`,
   contentType: 'mdx',
   fields: {
-    title: {
-      type: 'string',
-      required: true,
-    },
-    description: {
-      type: 'string',
-    },
+    title: { type: 'string', required: true },
+    description: { type: 'string' },
   },
   computedFields: {
     slug: {
@@ -134,22 +138,17 @@ export const Page = defineDocumentType(() => ({
   },
 }));
 
+// ======================================================
+// 🧾 Post
+// ======================================================
 export const Post = defineDocumentType(() => ({
   name: 'Post',
   filePathPattern: `posts/**/*.mdx`,
   contentType: 'mdx',
   fields: {
-    title: {
-      type: 'string',
-      required: true,
-    },
-    description: {
-      type: 'string',
-    },
-    date: {
-      type: 'date',
-      required: true,
-    },
+    title: { type: 'string', required: true },
+    description: { type: 'string' },
+    date: { type: 'date', required: true },
   },
   computedFields: {
     slug: {
@@ -163,6 +162,44 @@ export const Post = defineDocumentType(() => ({
   },
 }));
 
+// ======================================================
+// 🎓 ReuniDoc (baru ditambahkan, non-breaking)
+// ======================================================
+export const ReuniDoc = defineDocumentType(() => ({
+  name: 'ReuniDoc',
+  filePathPattern: 'reuni/**/*.mdx',
+  contentType: 'mdx',
+  fields: {
+    title: { type: 'string', required: true },
+    date: { type: 'date', required: true },
+    location: { type: 'string', required: true },
+    host: { type: 'string' },
+    summary: { type: 'string' },
+    // ❌ Tidak ada thumbnail atau images di sini
+    // ✅ Semua gambar ditulis langsung di konten MDX
+  },
+  computedFields: {
+    ...computedFields,
+    structuredData: {
+      type: 'json',
+      resolve: (doc) => ({
+        '@context': 'https://schema.org',
+        '@type': 'Event',
+        name: doc.title,
+        startDate: doc.date,
+        location: {
+          '@type': 'Place',
+          name: doc.location,
+        },
+        description: doc.summary,
+      }),
+    },
+  },
+}));
+
+// ======================================================
+// 🧠 Utility Functions
+// ======================================================
 function createTagCount(allBlogs: BlogType[]) {
   console.log('🔖 [createTagCount] Starting tag count generation...');
   const tagCount: Record<string, number> = {};
@@ -170,76 +207,51 @@ function createTagCount(allBlogs: BlogType[]) {
     if (file.tags && (!isProduction || file.draft !== true)) {
       file.tags.forEach((tag) => {
         const formattedTag = slug(tag);
-        if (formattedTag in tagCount) {
-          tagCount[formattedTag] += 1;
-        } else {
-          tagCount[formattedTag] = 1;
-        }
+        tagCount[formattedTag] = (tagCount[formattedTag] || 0) + 1;
       });
     }
   });
-  console.log('🔖 [createTagCount] Result:', tagCount);
   writeFileSync('./app/tag-data.json', JSON.stringify(tagCount));
-  console.log(
-    '✅ [createTagCount] tag-data.json created at ./app/tag-data.json'
-  );
+  console.log('✅ [createTagCount] tag-data.json created.');
 }
 
 function createAuthorCount(allBlogs: BlogType[]) {
-  console.log('👤 [createAuthorCount] Starting author count generation...');
+  console.log('👤 [createAuthorCount] Generating author counts...');
   const authorCount: Record<string, number> = {};
   allBlogs.forEach((file) => {
     if (file.authors && (!isProduction || file.draft !== true)) {
       file.authors.forEach((author) => {
         const formattedAuthor = slug(author);
-        if (formattedAuthor in authorCount) {
-          authorCount[formattedAuthor] += 1;
-        } else {
-          authorCount[formattedAuthor] = 1;
-        }
+        authorCount[formattedAuthor] = (authorCount[formattedAuthor] || 0) + 1;
       });
     }
   });
-  console.log('👤 [createAuthorCount] Result:', authorCount);
   writeFileSync('./app/author-data.json', JSON.stringify(authorCount));
-  console.log(
-    '✅ [createAuthorCount] author-data.json created at ./app/author-data.json'
-  );
+  console.log('✅ [createAuthorCount] author-data.json created.');
 }
 
 function createSearchIndex(allBlogs: BlogType[]) {
-  console.log('🔎 [createSearchIndex] Checking search provider...');
   if (
     siteMetadata?.search?.provider === 'kbar' &&
     siteMetadata.search.kbarConfig.searchDocumentsPath
   ) {
-    console.log('🔎 [createSearchIndex] Generating local search index...');
     writeFileSync(
       `public/${siteMetadata.search.kbarConfig.searchDocumentsPath}`,
       JSON.stringify(allCoreContent(sortPosts(allBlogs)))
     );
-    console.log(
-      `✅ [createSearchIndex] Local search index generated at public/${siteMetadata.search.kbarConfig.searchDocumentsPath}`
-    );
-  } else {
-    console.log(
-      'ℹ️ [createSearchIndex] No search index generated (provider not set to kbar).'
-    );
+    console.log('✅ [createSearchIndex] Local search index generated.');
   }
 }
 
 function createKbarSearchIndex(allBlogs: BlogType[]) {
-  console.log(
-    '🔎 [createKbarSearchIndex] Generating KBar-compatible search index...'
-  );
-
+  console.log('🔍 [createKbarSearchIndex] Building Kbar search index...');
   const basePath = process.env.BASE_PATH || '';
   const formatted = allCoreContent(sortPosts(allBlogs)).map((post) => ({
     id: post.slug,
     name: post.title,
     section: 'CONTENT',
     href: `${basePath}/${post.path}`,
-    subtitle: new Date(post.date).toLocaleDateString('en-US', {
+    subtitle: new Date(post.date).toLocaleDateString('id-ID', {
       year: 'numeric',
       month: 'long',
       day: 'numeric',
@@ -247,42 +259,28 @@ function createKbarSearchIndex(allBlogs: BlogType[]) {
     keywords: post.tags,
   }));
 
-  const outputPath = 'public/search-kbar.json';
-  writeFileSync(outputPath, JSON.stringify(formatted, null, 2));
-
-  console.log(`✅ [createKbarSearchIndex] Written to ${outputPath}`);
+  writeFileSync('public/search-kbar.json', JSON.stringify(formatted, null, 2));
+  console.log('✅ [createKbarSearchIndex] Written to public/search-kbar.json');
 }
 
 function readAllBlogsFromFile() {
   const blogDir = path.join(process.cwd(), '.contentlayer/generated/Blog');
-
-  if (!fs.existsSync(blogDir)) {
-    console.warn('⚠️ [readAllBlogsFromFile] Folder Blog tidak ditemukan.');
-    return [];
-  }
-
+  if (!fs.existsSync(blogDir)) return [];
   const files = fs.readdirSync(blogDir).filter((f) => f.endsWith('.json'));
-
-  const blogs = files.map((file) => {
-    const content = fs.readFileSync(path.join(blogDir, file), 'utf-8');
-    return JSON.parse(content);
-  });
-
-  return blogs;
+  return files.map((file) =>
+    JSON.parse(fs.readFileSync(path.join(blogDir, file), 'utf-8'))
+  );
 }
 
+// ======================================================
+// 🚀 Export Configuration
+// ======================================================
 export default makeSource({
   contentDirPath: 'content',
-  documentTypes: [Blog, Authors, Post, Page],
+  documentTypes: [Blog, Authors, Post, Page, ReuniDoc], // ✅ Tambahan ReuniDoc
   mdx: {
     cwd: process.cwd(),
-    remarkPlugins: [
-      //remarkExtractFrontmatter,
-      remarkGfm,
-      remarkCodeTitles,
-      remarkMath,
-      remarkImgToJsx,
-    ],
+    remarkPlugins: [remarkGfm, remarkCodeTitles, remarkMath, remarkImgToJsx],
     rehypePlugins: [
       rehypeSlug,
       rehypeAutolinkHeadings,
@@ -292,48 +290,25 @@ export default makeSource({
       rehypePresetMinify,
     ],
   },
-
   onSuccess: async (importData) => {
     console.log('🚀 [onSuccess] Starting post-build process...');
-
     let allBlogs = [];
-
     try {
       const imported = await importData();
-
       if (Array.isArray(imported?.allBlogs)) {
         allBlogs = imported.allBlogs;
-        console.log(
-          `📚 [onSuccess] Found ${allBlogs.length} blogs from importData()`
-        );
       } else {
-        console.warn(
-          '⚠️ [onSuccess] allBlogs not found from importData(), fallback to file.'
-        );
         allBlogs = readAllBlogsFromFile();
-        console.log(`📁 [onSuccess] Loaded ${allBlogs.length} blogs from file`);
       }
-    } catch (err) {
-      console.warn(
-        '❌ [onSuccess] importData() failed, fallback to file:',
-        err
-      );
+    } catch {
       allBlogs = readAllBlogsFromFile();
-      console.log(`📁 [onSuccess] Loaded ${allBlogs.length} blogs from file`);
     }
 
-    if (!allBlogs.length) {
-      console.warn(
-        '⚠️ [onSuccess] No blog data available, skipping post-build tasks.'
-      );
-      return;
-    }
-
+    if (!allBlogs.length) return;
     createAuthorCount(allBlogs);
     createTagCount(allBlogs);
     createSearchIndex(allBlogs);
-    createKbarSearchIndex(allBlogs); // ✅ Tambahan
-
+    createKbarSearchIndex(allBlogs);
     console.log('✅ [onSuccess] Post-build tasks completed.');
   },
 });

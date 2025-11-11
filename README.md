@@ -1,12 +1,12 @@
-# 🧩 teub-86
+# 🧩 TEUB-86
 
-Repositori ini merupakan proyek berbasis **Next.js (App Router)** yang ditujukan sebagai **platform blog modern** yang ringan, modular, dan mudah dikembangkan. Cocok digunakan untuk:
+Repositori ini merupakan proyek berbasis **Next.js (App Router)** yang ditujukan sebagai **platform dokumentasi digital alumni** TEUB-86 (Teknik Elektro Universitas Brawijaya Angkatan 1986). Platform ini bersifat **ringan, modular, dan extensible**, cocok digunakan untuk:
 
-- 📚 Menulis dan mempublikasikan artikel pribadi maupun kelompok
-- 🧠 Berbagi pengetahuan (knowledge sharing)
-- 🌐 Membangun personal branding melalui konten berkualitas
+- 📚 Menulis dan mempublikasikan artikel alumni
+- 🧠 Berbagi pengetahuan & pengalaman kerja
+- 🧾 Mencatat sejarah dan dokumentasi kegiatan reuni
 
-Konten blog ditulis dalam format **Markdown** dan dikelola menggunakan **Contentlayer**, menjadikan pengelolaan artikel lebih mudah dan efisien, terutama bagi developer atau penulis teknis.
+Konten disusun dalam format **Markdown (MDX)** dan dikelola menggunakan **Contentlayer**, sehingga sangat fleksibel untuk pengelolaan konten teknis maupun non-teknis.
 
 Repositori: [https://github.com/slametsampon/teub-86](https://github.com/slametsampon/teub-86)
 
@@ -14,30 +14,41 @@ Repositori: [https://github.com/slametsampon/teub-86](https://github.com/slamets
 
 ## ✨ Fitur Utama
 
-- ⚡ Next.js dengan App Router (`app/` directory)
-- 🎨 Tailwind CSS untuk styling
-- 📦 Contentlayer untuk manajemen konten Markdown
-- 🧠 Ditulis dalam TypeScript
-- 🌐 Siap deploy ke **GitHub Pages**
-- ✅ Dokumentasi pemula, mudah diikuti
-- 📤 Cocok untuk keperluan blog pribadi, tim, atau komunitas
+- ⚡ Dibangun dengan Next.js + App Router (`/app`)
+- 🎨 Styling menggunakan Tailwind CSS
+- 📦 Konten berbasis Markdown/MDX via Contentlayer
+- 📂 Terstruktur menjadi dua entitas utama: **Blog** dan **Reuni**
+- 🧠 Ditulis penuh dalam TypeScript
+- 🌐 Siap dideploy ke GitHub Pages
+- ✅ Cocok untuk dokumentasi komunitas, alumni, atau knowledge platform
+
+---
+
+## 📁 Struktur Konten
+
+Proyek ini memiliki dua kanal utama:
+
+| Kanal | Path     | Deskripsi                                                |
+| ----- | -------- | -------------------------------------------------------- |
+| Blog  | `/blog`  | Artikel bebas, opini, pengalaman, teknologi, berita, dll |
+| Reuni | `/reuni` | Dokumentasi kegiatan reuni alumni (narasi + foto)        |
+
+Semua konten dapat ditulis langsung dalam `.mdx` dan diletakkan dalam folder `content/`.
 
 ---
 
 ## 🛠️ Persyaratan Sistem
 
-Sebelum memulai, pastikan Anda sudah menginstall:
+Pastikan Anda sudah menginstall:
 
-- **Node.js** versi 18 atau lebih baru  
-  👉 Unduh dari: [https://nodejs.org](https://nodejs.org)
-- **Git**  
-  👉 Unduh dari: [https://git-scm.com](https://git-scm.com)
+- **Node.js** versi 18+
+  👉 [https://nodejs.org](https://nodejs.org)
+- **Git**
+  👉 [https://git-scm.com](https://git-scm.com)
 
 ---
 
-## 🚀 Setup Proyek (Jalankan di Lokal)
-
-Ikuti langkah-langkah di bawah ini:
+## 🚀 Setup Proyek (Lokal)
 
 ### 1. Clone repositori
 
@@ -48,31 +59,23 @@ cd teub-86
 
 ### 2. Install dependensi
 
-Menggunakan **npm**:
-
 ```bash
 npm install
 ```
 
-Atau menggunakan **yarn**:
-
-```bash
-yarn install
-```
-
-### 3. Menjalankan secara lokal
+### 3. Jalankan lokal
 
 ```bash
 npm run dev
 ```
 
-Lalu buka browser:
+Buka browser di:
 
 ```
 http://localhost:3000
 ```
 
-### 4. Build untuk produksi
+### 4. Build untuk Produksi
 
 ```bash
 npm run build
@@ -83,9 +86,7 @@ npm run start
 
 ## 🚢 Deploy ke GitHub Pages
 
-### 🧱 1. Update `next.config.js`
-
-Edit file `next.config.js` menjadi seperti berikut:
+### 1. Update `next.config.js`
 
 ```js
 /** @type {import('next').NextConfig} */
@@ -100,9 +101,9 @@ const nextConfig = {
 module.exports = nextConfig;
 ```
 
-> Pastikan `basePath` disesuaikan dengan nama repositori GitHub Anda (`/teub-86`).
+> Sesuaikan `basePath` dengan nama repositori GitHub.
 
-### 📜 2. Tambahkan script deploy ke `package.json`
+### 2. Tambahkan script ke `package.json`
 
 ```json
 "scripts": {
@@ -113,32 +114,25 @@ module.exports = nextConfig;
 }
 ```
 
-### 📦 3. Install `gh-pages`
+### 3. Install `gh-pages`
 
 ```bash
 npm install gh-pages --save-dev
 ```
 
-### 🚀 4. Jalankan Deploy
+### 4. Jalankan Deploy
 
 ```bash
 npm run deploy
 ```
 
-### 🛠️ 5. Atur GitHub Pages
+### 5. Atur GitHub Pages
 
-- Buka halaman repositori di GitHub
+- GitHub > Settings > Pages
+- Source: `gh-pages` branch
+- Folder: `/ (root)`
 
-- Masuk ke tab **Settings → Pages**
-
-- Pilih:
-
-  - **Source**: `gh-pages`
-  - **Folder**: `/ (root)`
-
-- Simpan
-
-Setelah beberapa menit, situs Anda akan muncul di:
+Link deploy:
 
 ```
 https://slametsampon.github.io/teub-86
@@ -148,106 +142,75 @@ https://slametsampon.github.io/teub-86
 
 ## 📁 Struktur Direktori
 
-Berikut adalah struktur direktori sesuai proyek Anda:
-
 ```
 teub-86/
-├── .contentlayer/            # Cache & output contentlayer
-├── .next/                    # Output build Next.js
-├── .vscode/                  # Konfigurasi editor
-├── app/                      # Folder utama untuk App Router (routing)
-├── components/               # Komponen UI yang dapat digunakan ulang
-├── content/                  # Konten statis seperti Markdown
-├── css/                      # File Tailwind dan custom CSS
-├── data/                     # Data statis / konfigurasi
-├── layouts/                  # Layout halaman global
-├── node_modules/             # Dependensi proyek
-├── out/                      # Output setelah export (untuk GitHub Pages)
-├── public/                   # File statis seperti gambar, favicon
-├── .eslintrc.{js,json}       # Konfigurasi linting
-├── .gitignore
-├── contentlayer.config.ts    # Konfigurasi Contentlayer
+├── app/                      # Routing dengan App Router
+├── components/               # Komponen UI
+├── content/
+│   ├── blog/                 # Artikel alumni
+│   ├── reuni/                # Dokumentasi kegiatan reuni
+│   └── pages/                # Static page seperti about.mdx
+├── data/                     # Metadata konfigurasi
+├── layouts/                  # Layout halaman
+├── public/                   # Aset statis (gambar, icon)
+├── .contentlayer/            # Output contentlayer
+├── out/                      # Hasil export untuk GitHub Pages
+├── tailwind.config.ts        # Konfigurasi Tailwind
+├── contentlayer.config.ts    # Konfigurasi struktur konten
 ├── next.config.js            # Konfigurasi Next.js
-├── package.json              # Dependensi & script npm
-├── postcss.config.js         # Konfigurasi PostCSS
-├── tailwind.config.js        # Konfigurasi Tailwind CSS
-├── tsconfig.json             # Konfigurasi TypeScript
-└── README.md                 # Dokumentasi proyek (file ini)
+├── tsconfig.json             # TypeScript config
+├── package.json              # Dependensi & script
+└── README.md                 # Dokumentasi ini
 ```
 
 ---
 
 ## 📦 Daftar Perintah Penting
 
-| Perintah         | Deskripsi                              |
-| ---------------- | -------------------------------------- |
-| `npm install`    | Menginstall semua dependensi proyek    |
-| `npm run dev`    | Menjalankan proyek di `localhost:3000` |
-| `npm run build`  | Build untuk produksi                   |
-| `npm run start`  | Menjalankan hasil build                |
-| `npm run deploy` | Deploy ke GitHub Pages                 |
+| Perintah         | Deskripsi                           |
+| ---------------- | ----------------------------------- |
+| `npm install`    | Install dependensi                  |
+| `npm run dev`    | Jalankan proyek di `localhost:3000` |
+| `npm run build`  | Build produksi                      |
+| `npm run start`  | Jalankan hasil build                |
+| `npm run deploy` | Deploy ke GitHub Pages              |
 
 ---
 
 ## ❓ FAQ
 
-### 🔹 Apakah proyek ini cocok untuk blog pribadi atau komunitas?
+### 🔹 Kenapa kontennya terpisah menjadi Blog dan Reuni?
 
-Ya, sangat cocok! Proyek ini dirancang untuk mendukung:
+Agar struktur tetap modular dan jelas:
 
-- Penulisan artikel berbasis Markdown
-- Kolaborasi tim
-- Pembuatan blog teknis atau non-teknis
-- Membantu developer membangun personal branding melalui konten yang terstruktur
+- **Blog**: fleksibel untuk berbagai topik.
+- **Reuni**: arsip dokumentasi kegiatan berdasarkan tahun atau lokasi.
 
-### 🔹 Apakah Contentlayer wajib?
+### 🔹 Bisa menambahkan artikel tanpa koding?
 
-Tidak wajib, tapi sangat direkomendasikan jika Anda ingin menulis artikel dalam format Markdown dengan struktur yang rapi dan mudah digunakan di dalam Next.js.
-
-### 🔹 Apakah bisa digunakan untuk berbagi ilmu?
-
-Tentu saja! Dengan dukungan Markdown, antarmuka modern, dan sistem file-based routing, Anda bisa menggunakannya untuk mendokumentasikan ilmu, berbagi tutorial, pengalaman pribadi, bahkan e-book mini.
+Konten `.mdx` cukup ditambahkan dalam folder `content/blog/` atau `content/reuni/`. Anda bisa menulis langsung menggunakan Markdown tanpa menyentuh JavaScript.
 
 ---
 
-## 🙌 Mengapa Harus Menggunakan Ini?
+## 🙌 Kontribusi
 
-- 🔍 **SEO-friendly** dengan struktur HTML yang ringan
-- 💡 Ideal untuk **personal branding** developer, tech writer, ataupun edukator
-- 🚀 Mudah di-deploy ke GitHub Pages secara gratis
-- 🧩 Bisa dikembangkan lebih lanjut menjadi blog multi-user, dengan CMS headless atau integrasi backend
+Semua alumni TEUB-86 dipersilakan berkontribusi.
 
----
-
-## 🙏 Kontribusi
-
-Kontribusi terbuka lebar!
-Silakan:
+Langkah:
 
 1. Fork repositori
 2. Buat branch baru (`feature/nama-fitur`)
-3. Commit perubahan
+3. Tambahkan konten
 4. Buat Pull Request
-
----
-
-## 🧑‍💻 Lisensi
-
-Lisensi proyek ini belum ditentukan.
-Silakan tambahkan file `LICENSE` jika ingin menetapkan lisensi terbuka seperti MIT.
 
 ---
 
 ## 📬 Kontak
 
-Pemilik repo: [@slametsampon](https://github.com/slametsampon)
-Jika Anda mengalami kendala, silakan buka **Issue** atau diskusi di repositori ini.
+Dikelola oleh: [@slametsampon](https://github.com/slametsampon)
+Silakan gunakan [Issue](https://github.com/slametsampon/teub-86/issues) untuk pertanyaan atau usulan.
 
 ---
 
-Terima kasih telah menggunakan proyek ini 🙌
-Selamat menulis, berbagi, dan membangun reputasi digital Anda!
-
-```
-
-```
+Terima kasih telah menggunakan TEUB-86 🚀
+Mari kita dokumentasikan kenangan dan pengetahuan bersama.

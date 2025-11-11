@@ -3,57 +3,53 @@ title: About
 description: Tentang situs ini
 ---
 
-# 🏭 TEUB-86 — Industrial Knowledge Base & Blog Platform
+# 🏭 TEUB-86 — Industrial & Alumni Knowledge Platform
 
-**TEUB-86** adalah proyek **open-source** berbasis **Next.js (App Router)** yang dirancang untuk menjadi **platform blog dan dokumentasi teknis** khususnya di bidang **industri, petrochemical, proyek engineering, dan safety**.
+**TEUB-86** adalah proyek **open-source** berbasis **Next.js (App Router)** yang dikembangkan sebagai **platform dokumentasi, blog, dan arsip reuni** untuk komunitas **alumni Teknik Elektro Universitas Brawijaya Angkatan 1986**.
 
-Dengan dukungan struktur konten modular menggunakan **Contentlayer**, TEUB-86 menyederhanakan penulisan, manajemen, dan distribusi artikel dalam format **Markdown (MDX)**. Didukung oleh desain minimalis dan performa tinggi, TEUB-86 sangat cocok untuk **insinyur, profesional industri, dan tim teknis**.
+Proyek ini tidak hanya mengusung konsep blog teknis (engineering, safety, maintenance), tetapi juga menyediakan kanal dokumentasi kegiatan reuni sebagai bagian dari _knowledge preservation_ dan penguatan ikatan alumni.
 
 ---
 
 ## 🎯 Tujuan Proyek
 
-TEUB-86 dibuat untuk:
+TEUB-86 dibangun untuk:
 
-- ✍️ Mendokumentasikan pengetahuan industri: maintenance, safety, EPC, proyek, dsb
-- 📚 Menyusun blog dan pusat dokumentasi teknis berbasis Markdown
-- 🧠 Membangun _knowledge base_ untuk tim teknis / engineering
-- 🛠️ Meningkatkan efisiensi manajemen konten tanpa backend atau CMS
-- 🌐 Menyediakan platform statis untuk **personal branding** dan publikasi
+- ✍️ Mendokumentasikan pengalaman, proyek, dan keahlian profesional alumni
+- 📚 Membangun blog dan pusat dokumentasi teknis berbasis Markdown (MDX)
+- 📸 Menyimpan dokumentasi kegiatan reuni secara sistematis dan berkelanjutan
+- 🧠 Menjadi knowledge base kolektif bagi alumni dan generasi penerus
+- 🌐 Menyediakan platform statis, modern, dan mudah dikembangkan bersama
 
 ---
 
 ## 🚀 Fitur Unggulan
 
-| Fitur                                  | Deskripsi                                   |
-| -------------------------------------- | ------------------------------------------- |
-| ✅ **Next.js App Router**              | Arsitektur modern & efisien                 |
-| 📁 **Markdown (MDX)**                  | Konten ditulis sepenuhnya dalam format MDX  |
-| 📦 **Contentlayer**                    | Otomatisasi struktur konten dan metadata    |
-| 🎨 **Tailwind CSS**                    | Desain fleksibel dan mudah dikustomisasi    |
-| 🔍 **Tagging & Filtering**             | Sistem tag otomatis, termasuk `/tags/[tag]` |
-| 🗂️ **Kategori & Folder-Based Routing** | Navigasi berdasarkan struktur folder        |
-| 📈 **Optimasi SEO**                    | Metadata otomatis dari konten               |
-| 🌓 **Theme Switcher**                  | Light / Dark mode                           |
-| ⚙️ **Static Export Friendly**          | Siap untuk deploy ke GitHub Pages           |
-| 🧠 **Typed with TypeScript**           | Keamanan dan kenyamanan dalam development   |
+| Fitur                         | Deskripsi                                   |
+| ----------------------------- | ------------------------------------------- |
+| ✅ **Next.js App Router**     | Arsitektur modern & efisien                 |
+| 📁 **Markdown (MDX)**         | Konten ditulis sepenuhnya dalam format MDX  |
+| 📦 **Contentlayer**           | Otomatisasi struktur konten dan metadata    |
+| 🎨 **Tailwind CSS**           | Desain fleksibel dan mudah dikustomisasi    |
+| 🗂️ **Struktur Modular**       | Memisahkan `blog/` dan `reuni/`             |
+| 🔍 **Tagging & Filtering**    | Sistem tag otomatis, termasuk `/tags/[tag]` |
+| 🌙 **Light / Dark Mode**      | Disesuaikan dengan preferensi pengguna      |
+| ⚙️ **Static Export Friendly** | Siap untuk deploy ke GitHub Pages           |
+| 🧠 **Typed with TypeScript**  | Keamanan dan kenyamanan dalam development   |
 
 ---
 
 ## 📚 Struktur Konten
 
-Struktur folder konten disesuaikan langsung dari direktori:
+Struktur konten terbagi menjadi dua kanal utama:
 
 ```
 
 content/
-├── author/
-├── blog/
-│   ├── AI/
-│   ├── design/
-│   ├── maintenance/
-│   ├── project/
-│   └── safety/
+├── blog/         # Artikel bebas, teknis, pengalaman, opini
+├── reuni/        # Dokumentasi kegiatan reuni alumni
+├── authors/      # (Opsional) Profil kontributor
+├── pages/        # Halaman statis (about.mdx, dll)
 
 ```
 
@@ -61,10 +57,10 @@ Setiap file `.mdx` memiliki metadata `frontmatter`, seperti:
 
 ```md
 ---
-title: TOR Reverse Engineer STHE
-tags: ['project', 'tor', 'design']
+title: Reverse Engineering STHE
+tags: ['project', 'design']
 date: '2025-10-10'
-draft: false
+summary: Studi kasus desain ulang shell & tube heat exchanger.
 ---
 ```
 
@@ -72,11 +68,10 @@ draft: false
 
 ## 👥 Siapa yang Cocok Menggunakan?
 
-- 🧑‍🔧 **Engineer / Technical Writer** – dokumentasi prosedur, safety, design, project, dll
-- 🧪 **Researcher / Akademisi** – membangun repository pembelajaran
-- 🧑‍🏫 **Edukator** – membuat portal tutorial atau dokumentasi materi ajar
-- 🧑‍💻 **Developer** – ingin personal blog dengan fitur powerful
-- 👥 **Tim / Divisi Teknik** – untuk kolaborasi pengetahuan teknis
+- 🧑‍🔧 **Engineer / Technical Writer** – dokumentasi teknis, pengalaman kerja
+- 👴 **Alumni** – menulis refleksi atau cerita selama kuliah dan karier
+- 🧑‍🏫 **Edukator** – membuat konten pembelajaran & e-learning
+- 👥 **Komunitas** – membangun histori dan dokumentasi kegiatan
 
 ---
 
@@ -90,28 +85,28 @@ draft: false
 
 ---
 
-## 🛠️ Cara Mengembangkan
+## 🛠️ Cara Menjalankan Proyek
 
-1. Clone repository:
+1. Clone repositori:
 
    ```bash
-   git clone https://github.com/namamu/teub-86.git
+   git clone https://github.com/slametsampon/teub-86.git
    cd teub-86
    ```
 
-2. Install dependencies:
+2. Install dependensi:
 
    ```bash
    npm install
    ```
 
-3. Jalankan local development:
+3. Jalankan lokal:
 
    ```bash
    npm run dev
    ```
 
-4. Build dan export (statis):
+4. Build untuk produksi:
 
    ```bash
    npm run build && npm run export
@@ -121,21 +116,21 @@ draft: false
 
 ## 🤝 Kontribusi
 
-Kontribusi terbuka untuk siapa saja:
+Kontribusi terbuka untuk semua alumni dan profesional yang ingin berbagi:
 
-- ✏️ Perbaikan dokumentasi
-- 🧩 Penambahan fitur
-- 🐛 Perbaikan bug
-- 💡 Ide baru
+- ✏️ Menambahkan artikel atau dokumentasi reuni
+- 💡 Mengusulkan fitur baru
+- 🐞 Memperbaiki bug atau masalah tampilan
+- 🔧 Menyesuaikan desain atau UX
 
-Silakan buka [issue](https://github.com/namamu/teub-86/issues) atau buat [pull request](https://github.com/namamu/teub-86/pulls).
+Silakan buka [Issue](https://github.com/slametsampon/teub-86/issues) atau kirim [Pull Request](https://github.com/slametsampon/teub-86/pulls).
 
 ---
 
 ## 📄 Lisensi
 
-Proyek ini berada di bawah lisensi **MIT** – silakan digunakan, dimodifikasi, dan dikembangkan sesuai kebutuhan.
+Proyek ini menggunakan lisensi **MIT** — bebas digunakan, dimodifikasi, dan dikembangkan untuk kepentingan komunitas.
 
 ---
 
-> Dibangun untuk kebutuhan nyata dokumentasi teknis industri — karena pengetahuan tidak boleh hilang.
+> Dibangun dengan semangat kebersamaan alumni — karena pengetahuan dan kenangan layak didokumentasikan dan diwariskan.
