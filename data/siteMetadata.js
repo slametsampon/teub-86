@@ -6,7 +6,7 @@ const siteMetadata = {
   version: '0.4.1', // 🆕 Fix author detail
   author: 'Slamet-Sam',
   headerTitle: 'TEUB-86',
-  description: 'Maintenance Extended Core',
+  description: 'Teknik Elektro Universitas Brawijaya angkatan 1986',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://slametsampon.github.io/teub-86/',
