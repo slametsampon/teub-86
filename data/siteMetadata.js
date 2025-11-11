@@ -2,20 +2,20 @@
 
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Mx Core',
+  title: 'TEUB-86',
   version: '0.4.1', // 🆕 Fix author detail
   author: 'Slamet-Sam',
-  headerTitle: 'MxCore',
+  headerTitle: 'TEUB-86',
   description: 'Maintenance Extended Core',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://slametsampon.github.io/mx-core/',
-  siteRepo: 'https://github.com/slametsampon/mx-core',
+  siteUrl: 'https://slametsampon.github.io/teub-86/',
+  siteRepo: 'https://github.com/slametsampon/teub-86',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
   mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'address@yoursite.com',
-  github: 'https://github.com/slametsampon/mx-core',
+  github: 'https://github.com/slametsampon/teub-86',
   twitter: 'https://twitter.com/Twitter',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',

@@ -1,4 +1,4 @@
-# 🧩 mx-core
+# 🧩 teub-86
 
 Repositori ini merupakan proyek berbasis **Next.js (App Router)** yang ditujukan sebagai **platform blog modern** yang ringan, modular, dan mudah dikembangkan. Cocok digunakan untuk:
 
@@ -8,7 +8,7 @@ Repositori ini merupakan proyek berbasis **Next.js (App Router)** yang ditujukan
 
 Konten blog ditulis dalam format **Markdown** dan dikelola menggunakan **Contentlayer**, menjadikan pengelolaan artikel lebih mudah dan efisien, terutama bagi developer atau penulis teknis.
 
-Repositori: [https://github.com/slametsampon/mx-core](https://github.com/slametsampon/mx-core)
+Repositori: [https://github.com/slametsampon/teub-86](https://github.com/slametsampon/teub-86)
 
 ---
 
@@ -42,8 +42,8 @@ Ikuti langkah-langkah di bawah ini:
 ### 1. Clone repositori
 
 ```bash
-git clone https://github.com/slametsampon/mx-core.git
-cd mx-core
+git clone https://github.com/slametsampon/teub-86.git
+cd teub-86
 ```
 
 ### 2. Install dependensi
@@ -91,7 +91,7 @@ Edit file `next.config.js` menjadi seperti berikut:
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/mx-core',
+  basePath: '/teub-86',
   images: {
     unoptimized: true,
   },
@@ -100,7 +100,7 @@ const nextConfig = {
 module.exports = nextConfig;
 ```
 
-> Pastikan `basePath` disesuaikan dengan nama repositori GitHub Anda (`/mx-core`).
+> Pastikan `basePath` disesuaikan dengan nama repositori GitHub Anda (`/teub-86`).
 
 ### 📜 2. Tambahkan script deploy ke `package.json`
 
@@ -141,7 +141,7 @@ npm run deploy
 Setelah beberapa menit, situs Anda akan muncul di:
 
 ```
-https://slametsampon.github.io/mx-core
+https://slametsampon.github.io/teub-86
 ```
 
 ---
@@ -151,7 +151,7 @@ https://slametsampon.github.io/mx-core
 Berikut adalah struktur direktori sesuai proyek Anda:
 
 ```
-mx-core/
+teub-86/
 ├── .contentlayer/            # Cache & output contentlayer
 ├── .next/                    # Output build Next.js
 ├── .vscode/                  # Konfigurasi editor

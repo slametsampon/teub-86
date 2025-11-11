@@ -3,7 +3,7 @@
     "id": "website/github-custom-domain",
     "name": "Deploy Next.js ke GitHub Pages dengan Custom Domain Gratis",
     "section": "CONTENT",
-    "href": "/mx-core/blog/website/github-custom-domain",
+    "href": "/teub-86/blog/website/github-custom-domain",
     "subtitle": "October 10, 2025",
     "keywords": [
       "GitHub-Actions",
@@ -14,9 +14,9 @@
   },
   {
     "id": "website/konfigurtasi-blog",
-    "name": "Konfigurasi Lengkap Next.js Blog (mx-core)",
+    "name": "Konfigurasi Lengkap Next.js Blog (teub-86)",
     "section": "CONTENT",
-    "href": "/mx-core/blog/website/konfigurtasi-blog",
+    "href": "/teub-86/blog/website/konfigurtasi-blog",
     "subtitle": "October 8, 2025",
     "keywords": [
       "static-web",
@@ -32,7 +32,7 @@
     "id": "markdown/math-formula-guide",
     "name": "Panduan Penulisan Formula Matematika dalam Block Markdown",
     "section": "CONTENT",
-    "href": "/mx-core/blog/markdown/math-formula-guide",
+    "href": "/teub-86/blog/markdown/math-formula-guide",
     "subtitle": "October 7, 2025",
     "keywords": [
       "markdown",
@@ -44,7 +44,7 @@
     "id": "rjpp",
     "name": "RJPP - Rencana Jangka Panjang Pabrik",
     "section": "CONTENT",
-    "href": "/mx-core/blog/rjpp",
+    "href": "/teub-86/blog/rjpp",
     "subtitle": "September 26, 2024",
     "keywords": [
       "rencana",
@@ -60,7 +60,7 @@
     "id": "AI/patform-ai",
     "name": "Pemanfaatan AI untuk Mendukung Pekerjaan di Industri Petrokimia",
     "section": "CONTENT",
-    "href": "/mx-core/blog/AI/patform-ai",
+    "href": "/teub-86/blog/AI/patform-ai",
     "subtitle": "September 20, 2024",
     "keywords": [
       "platform-ai",
@@ -73,7 +73,7 @@
     "id": "design/openFoam-docker",
     "name": "OpenFOAM - Open Field Operation and Manipulation",
     "section": "CONTENT",
-    "href": "/mx-core/blog/design/openFoam-docker",
+    "href": "/teub-86/blog/design/openFoam-docker",
     "subtitle": "September 9, 2024",
     "keywords": [
       "OpenFOAM",
@@ -85,7 +85,7 @@
     "id": "AI/artikel-ai",
     "name": "Menulis Artikel yang Efektif dengan Prompt Engineering",
     "section": "CONTENT",
-    "href": "/mx-core/blog/AI/artikel-ai",
+    "href": "/teub-86/blog/AI/artikel-ai",
     "subtitle": "September 8, 2024",
     "keywords": [
       "prompt-engineering",
@@ -98,7 +98,7 @@
     "id": "AI/prompt-engineering",
     "name": "Prompt Engineering",
     "section": "CONTENT",
-    "href": "/mx-core/blog/AI/prompt-engineering",
+    "href": "/teub-86/blog/AI/prompt-engineering",
     "subtitle": "September 8, 2024",
     "keywords": [
       "prompt-engineering",
@@ -110,7 +110,7 @@
     "id": "website/deploying-next-apps",
     "name": "Deploying Next.js Apps",
     "section": "CONTENT",
-    "href": "/mx-core/blog/website/deploying-next-apps",
+    "href": "/teub-86/blog/website/deploying-next-apps",
     "subtitle": "January 2, 2023",
     "keywords": [
       "vercel",
@@ -120,7 +120,7 @@
   },
   {
     "section": "CONTENT",
-    "href": "/mx-core/undefined",
+    "href": "/teub-86/undefined",
     "subtitle": "Invalid Date"
   }
 ]

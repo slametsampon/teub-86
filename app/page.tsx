@@ -16,7 +16,7 @@ export default function Home() {
       {/* Hero Section */}
       <div className="relative z-10 mb-12 mt-10 text-center">
         <h1 className="bg-gradient-to-r from-green-600 via-cyan-500 to-blue-500 bg-clip-text text-5xl font-extrabold tracking-tight text-transparent sm:text-6xl">
-          MxCore: Industrial Knowledge Platform
+          TEUB-86: Industrial Knowledge Platform
         </h1>
         <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-600 dark:text-gray-300">
           Sistem dokumentasi dan blog modern berbasis{' '}
