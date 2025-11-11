@@ -3,7 +3,7 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
   title: 'TEUB-86',
-  version: '0.4.1', // 🆕 Fix author detail
+  version: '0.4.2', // 🆕 Fix author detail
   author: 'Slamet-Sam',
   headerTitle: 'TEUB-86',
   description: 'Teknik Elektro Universitas Brawijaya angkatan 1986',
