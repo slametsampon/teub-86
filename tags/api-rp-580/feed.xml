@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>CMMS - PON</title>
+      <link>https://cmms-nextjs.vercel.app//blog</link>
+      <description>CMMS - PT. Petro Oxo Nusantara</description>
+      <language>en-us</language>
+      <managingEditor>slamet@pon.co.id (Slamet - Sam)</managingEditor>
+      <webMaster>slamet@pon.co.id (Slamet - Sam)</webMaster>
+      <lastBuildDate>Fri, 20 Oct 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://cmms-nextjs.vercel.app//tags/api-rp-580/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-system</guid>
+    <title>Maintenance System</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-system</link>
+    <description>Sistem maintenance pabrik petrokimia adalah suatu rangkaian proses yang bertujuan untuk menjaga, memperbaiki, dan merawat semua peralatan dan fasilitas yang digunakan dalam operasional pabrik petrokimia.</description>
+    <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>System</category><category>API RP 580</category><category>Risk-Management</category>
+  </item>
+
+    </channel>
+  </rss>

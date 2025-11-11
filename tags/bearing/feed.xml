@@ -1,0 +1,34 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>CMMS - PON</title>
+      <link>https://cmms-nextjs.vercel.app//blog</link>
+      <description>CMMS - PT. Petro Oxo Nusantara</description>
+      <language>en-us</language>
+      <managingEditor>slamet@pon.co.id (Slamet - Sam)</managingEditor>
+      <webMaster>slamet@pon.co.id (Slamet - Sam)</webMaster>
+      <lastBuildDate>Fri, 10 Nov 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://cmms-nextjs.vercel.app//tags/bearing/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/Bearing-Load-Calculation-for-Pumps</guid>
+    <title>Bearing Load Calculation for Centrifugal Pumps</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/Bearing-Load-Calculation-for-Pumps</link>
+    <description>Artikel ini memberikan pengetahuan mengenai perhitungan load bearing untuk tipe centrifugal pumps beserta contoh perhitungan yang digunakan dalam pabrik petrokimia dengan jenis pompa KSB Aquavane</description>
+    <pubDate>Fri, 10 Nov 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Bearing</category><category>load</category><category>Bearing Configuration</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-bearing</guid>
+    <title>Pemeliharaan Bearing</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-bearing</link>
+    <description>Untuk melakukan maintenance bearing yang baik, ada beberapa langkah yang bisa Anda ikuti.</description>
+    <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>bearing</category><category> ISO-15243</category>
+  </item>
+
+    </channel>
+  </rss>

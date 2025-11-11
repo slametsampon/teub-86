@@ -1,0 +1,124 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>CMMS - PON</title>
+      <link>https://cmms-nextjs.vercel.app//blog</link>
+      <description>CMMS - PT. Petro Oxo Nusantara</description>
+      <language>en-us</language>
+      <managingEditor>slamet@pon.co.id (Slamet - Sam)</managingEditor>
+      <webMaster>slamet@pon.co.id (Slamet - Sam)</webMaster>
+      <lastBuildDate>Thu, 26 Oct 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://cmms-nextjs.vercel.app//tags/maintenance/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-fishbone-diagram</guid>
+    <title>Optimasi Proses dalam Industri Petrokimia Menggunakan Fishbone Diagram</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-fishbone-diagram</link>
+    <description>Petrokimia adalah industri yang kompleks dan sangat bergantung pada efisiensi operasional. Kesalahan kecil dalam proses produksi dapat memiliki dampak besar, baik dari segi lingkungan maupun keuangan. Dalam artikel ini, kita akan menjelaskan bagaimana Fishbone Diagram, juga dikenal sebagai Diagram Ishikawa atau Diagram Tulang Ikan, dapat digunakan untuk menganalisis dan mengoptimalkan proses dalam industri petrokimia.</description>
+    <pubDate>Thu, 26 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>FTA</category><category>rcfa</category><category>Fishbone-Diagram</category><category>troubleshooting</category><category>Risk-Management</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-fmea</guid>
+    <title>Mengungkap Keunggulan FMEA dalam Meningkatkan Keandalan di Industri Petrokimia</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-fmea</link>
+    <description>Artikel ini akan membahas pentingnya FMEA dalam industri petrokimia dan bagaimana metode ini dapat membantu meningkatkan keandalan operasi pabrik</description>
+    <pubDate>Thu, 26 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>FTA</category><category>rcfa</category><category>fmea</category><category>Fishbone-Diagram</category><category>troubleshooting</category><category>Risk-Management</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-fta</guid>
+    <title>Mengungkap Risiko Tersembunyi - Panduan Lengkap tentang Failure Tree Analysis (FTA)</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-fta</link>
+    <description>Artikel ini akan memberikan wawasan mendalam tentang Failure Tree Analysis (FTA), sebuah teknik analisis yang kritis dalam manajemen risiko dan perbaikan sistem</description>
+    <pubDate>Wed, 25 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>FTA</category><category>rcfa</category><category>Fishbone-Diagram</category><category>troubleshooting</category><category>Risk-Management</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-rcfa</guid>
+    <title>Mengungkap Akar Masalah - Panduan Lengkap Analisis Akar Penyebab Kegagalan (RCFA)</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-rcfa</link>
+    <description>Artikel ini akan mencakup pengertian, manfaat, langkah-langkah, serta beberapa rumus dan formula yang digunakan dalam RCFA</description>
+    <pubDate>Wed, 25 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>FTA</category><category>rcfa</category><category>Fishbone-Diagram</category><category>troubleshooting</category><category>Risk-Management</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-electrical-devices</guid>
+    <title>Peralatan Listrik Petrokimia</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-electrical-devices</link>
+    <description>Peralatan listrik pada pabrik petrokimia adalah komponen penting yang digunakan dalam proses produksi kimia dari bahan baku minyak bumi dan produk-produk turunannya.</description>
+    <pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>Listrik</category><category>NFPA-70</category><category>Risk-Management</category><category>peralatan</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-heat-exchanger</guid>
+    <title>Heat Exchanger</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-heat-exchanger</link>
+    <description>Heat exchanger (penukar panas) dalam konteks pabrik petrokimia adalah perangkat yang digunakan untuk mentransfer panas dari satu fluida ke fluida lainnya tanpa saling mencampur keduanya.</description>
+    <pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>STHE</category><category>PHE</category><category>heat-exchaner</category><category>AIChE</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-pump</guid>
+    <title>Pemeliharaan Pompa</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-pump</link>
+    <description>Pompa adalah suatu perangkat mekanis yang digunakan untuk mengalirkan cairan dari satu tempat ke tempat lain.</description>
+    <pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>pompa</category><category>API-610</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-bearing</guid>
+    <title>Pemeliharaan Bearing</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-bearing</link>
+    <description>Untuk melakukan maintenance bearing yang baik, ada beberapa langkah yang bisa Anda ikuti.</description>
+    <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>bearing</category><category> ISO-15243</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-electrical</guid>
+    <title>Pemeliharaan Peralatan Listrik</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-electrical</link>
+    <description>Pemeliharaan peralatan listrik di pabrik petrokimia sangat penting untuk menjaga keandalan operasi dan keselamatan.</description>
+    <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>Listrik</category><category>IEEE-141</category><category>Risk-Management</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-gemba-kaizen</guid>
+    <title>Gemba Kaizen</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-gemba-kaizen</link>
+    <description>Gemba Kaizen adalah sebuah konsep dalam manajemen produksi dan proses perbaikan yang berasal dari Jepang. &quot;Gemba&quot; berarti tempat kerja atau lokasi sebenarnya, sementara &quot;Kaizen&quot; berarti perbaikan berkelanjutan.</description>
+    <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>gemba</category><category>kaizen</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-system</guid>
+    <title>Maintenance System</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-system</link>
+    <description>Sistem maintenance pabrik petrokimia adalah suatu rangkaian proses yang bertujuan untuk menjaga, memperbaiki, dan merawat semua peralatan dan fasilitas yang digunakan dalam operasional pabrik petrokimia.</description>
+    <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>System</category><category>API RP 580</category><category>Risk-Management</category>
+  </item>
+
+    </channel>
+  </rss>

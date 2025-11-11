@@ -1,0 +1,44 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>CMMS - PON</title>
+      <link>https://cmms-nextjs.vercel.app//blog</link>
+      <description>CMMS - PT. Petro Oxo Nusantara</description>
+      <language>en-us</language>
+      <managingEditor>slamet@pon.co.id (Slamet - Sam)</managingEditor>
+      <webMaster>slamet@pon.co.id (Slamet - Sam)</webMaster>
+      <lastBuildDate>Mon, 06 Nov 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://cmms-nextjs.vercel.app//tags/spesifikasi/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/Steam-trap</guid>
+    <title>Steam Trap</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/Steam-trap</link>
+    <description>Steam trap adalah perangkat yang digunakan dalam sistem perpipaan untuk mengeluarkan air kondensat (air yang terbentuk ketika uap mengembun) dari dalam jalur uap dan memungkinkan hanya uap yang bersirkulasi dalam sistem.</description>
+    <pubDate>Mon, 06 Nov 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Steam</category><category>trap</category><category>spesifikasi</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/TOR-Reverse-Engineer-STHE</guid>
+    <title>TOR Reverse engineering- Panduan tentang bagaimana melakukan reverse engineering Shell and Tube Heat Exchanger</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/TOR-Reverse-Engineer-STHE</link>
+    <description>Artikel ini akan memberikan gambaran bagaimana memberikan Term of reference (TOR) atau kerangka acuan kerja pada pekerjaan reverse engineering terhadap Shell and Tube Heat Exchanger yang telah beroperasi namun tidak disertai MDR dan data sheet .</description>
+    <pubDate>Mon, 06 Nov 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>TOR</category><category>STHE</category><category>Reverse</category><category>Engineering</category><category> Design</category><category>Spesifikasi</category><category>Sertifikasi</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-tor</guid>
+    <title>TOR - Term Of Reference</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-tor</link>
+    <description>Term of Reference (TOR) adalah dokumen yang merinci tujuan, cakupan, tugas, dan tanggung jawab dalam suatu proyek atau kontrak.</description>
+    <pubDate>Tue, 24 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>TOR</category><category>kontrak</category><category>spesifikasi</category>
+  </item>
+
+    </channel>
+  </rss>

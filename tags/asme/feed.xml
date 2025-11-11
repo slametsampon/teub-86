@@ -1,0 +1,34 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>CMMS - PON</title>
+      <link>https://cmms-nextjs.vercel.app//blog</link>
+      <description>CMMS - PT. Petro Oxo Nusantara</description>
+      <language>en-us</language>
+      <managingEditor>slamet@pon.co.id (Slamet - Sam)</managingEditor>
+      <webMaster>slamet@pon.co.id (Slamet - Sam)</webMaster>
+      <lastBuildDate>Sat, 21 Oct 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://cmms-nextjs.vercel.app//tags/asme/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-mechanical-seal</guid>
+    <title>Mechanical seal API 682</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-mechanical-seal</link>
+    <description>API 682 adalah sebuah standar yang digunakan dalam industri untuk sistem perpipaan dan seal mekanis pada pompa sentrifugal yang digunakan dalam berbagai aplikasi.</description>
+    <pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>standar</category><category>API</category><category>ASME</category><category>mechanical-seal</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-standar-code</guid>
+    <title>Standar &amp; Code Petrochemical Plant</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-standar-code</link>
+    <description>Pabrik petrokimia mengandalkan sejumlah standar dan peraturan teknis untuk memastikan keselamatan, keandalan, dan kepatuhan dalam operasi mereka.</description>
+    <pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>standar</category><category>API</category><category>ASME</category><category>ANSI</category><category>AIChE</category>
+  </item>
+
+    </channel>
+  </rss>

@@ -1,0 +1,34 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>CMMS - PON</title>
+      <link>https://cmms-nextjs.vercel.app//blog</link>
+      <description>CMMS - PT. Petro Oxo Nusantara</description>
+      <language>en-us</language>
+      <managingEditor>slamet@pon.co.id (Slamet - Sam)</managingEditor>
+      <webMaster>slamet@pon.co.id (Slamet - Sam)</webMaster>
+      <lastBuildDate>Tue, 31 Oct 2023 17:00:00 GMT</lastBuildDate>
+      <atom:link href="https://cmms-nextjs.vercel.app//tags/pengawasan/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/Membuat-S-Curve</guid>
+    <title>Membuat S-Curve Alat Visualisasi Perkembangan Proyek yang Efektif</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/Membuat-S-Curve</link>
+    <description>Artikel ini akan membahas langkah-langkah untuk membuat S-Curve dalam pengelolaan proyek.</description>
+    <pubDate>Tue, 31 Oct 2023 17:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Project</category><category>Manajemen</category><category>Perencanaan</category><category>Pengelolaan</category><category>Jadwal</category><category>S-Curve</category><category>Pengawasan</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/Manajemen-Proyek</guid>
+    <title>Manajemen Proyek - Panduan tentang bagaimana menjalankan manajemen suatu project</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/Manajemen-Proyek</link>
+    <description>Artikel ini akan memberikan wawasan mendalam tentang Bagaimana tahapan tahapan yang harus dilalui dalam menjalankan suatu project agar apa yang menjadi tujuan pelaksanaan project tersebut tercapai.</description>
+    <pubDate>Thu, 26 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Project</category><category>Manajemen</category><category>Perencanaan</category><category>Design</category><category>Jadwal</category><category>Risk-Management</category><category>Pengawasan</category><category>Laporan</category><category>Evaluasi</category>
+  </item>
+
+    </channel>
+  </rss>

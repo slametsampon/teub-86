@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>CMMS - PON</title>
+      <link>https://cmms-nextjs.vercel.app//blog</link>
+      <description>CMMS - PT. Petro Oxo Nusantara</description>
+      <language>en-us</language>
+      <managingEditor>slamet@pon.co.id (Slamet - Sam)</managingEditor>
+      <webMaster>slamet@pon.co.id (Slamet - Sam)</webMaster>
+      <lastBuildDate>Mon, 06 Nov 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://cmms-nextjs.vercel.app//tags/sertifikasi/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/TOR-Reverse-Engineer-STHE</guid>
+    <title>TOR Reverse engineering- Panduan tentang bagaimana melakukan reverse engineering Shell and Tube Heat Exchanger</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/TOR-Reverse-Engineer-STHE</link>
+    <description>Artikel ini akan memberikan gambaran bagaimana memberikan Term of reference (TOR) atau kerangka acuan kerja pada pekerjaan reverse engineering terhadap Shell and Tube Heat Exchanger yang telah beroperasi namun tidak disertai MDR dan data sheet .</description>
+    <pubDate>Mon, 06 Nov 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>TOR</category><category>STHE</category><category>Reverse</category><category>Engineering</category><category> Design</category><category>Spesifikasi</category><category>Sertifikasi</category>
+  </item>
+
+    </channel>
+  </rss>

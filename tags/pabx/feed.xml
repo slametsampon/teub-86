@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>CMMS - PON</title>
+      <link>https://cmms-nextjs.vercel.app//blog</link>
+      <description>CMMS - PT. Petro Oxo Nusantara</description>
+      <language>en-us</language>
+      <managingEditor>slamet@pon.co.id (Slamet - Sam)</managingEditor>
+      <webMaster>slamet@pon.co.id (Slamet - Sam)</webMaster>
+      <lastBuildDate>Fri, 03 Nov 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://cmms-nextjs.vercel.app//tags/pabx/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/pabx</guid>
+    <title>PABX Panasonic</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/pabx</link>
+    <description>PABX adalah singkatan dari &quot;Private Automatic Branch eXchange&quot;. Ini adalah sistem telepon yang digunakan di dalam suatu organisasi atau perusahaan untuk mengelola panggilan telepon internal dan eksternal. PABX memungkinkan pengguna di dalam organisasi untuk saling berkomunikasi melalui saluran internal tanpa harus menggunakan jalur telepon umum..</description>
+    <pubDate>Fri, 03 Nov 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>PABX</category><category>Telephone</category><category>TDE-200</category>
+  </item>
+
+    </channel>
+  </rss>

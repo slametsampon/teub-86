@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>CMMS - PON</title>
+      <link>https://cmms-nextjs.vercel.app//blog</link>
+      <description>CMMS - PT. Petro Oxo Nusantara</description>
+      <language>en-us</language>
+      <managingEditor>slamet@pon.co.id (Slamet - Sam)</managingEditor>
+      <webMaster>slamet@pon.co.id (Slamet - Sam)</webMaster>
+      <lastBuildDate>Sat, 21 Oct 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://cmms-nextjs.vercel.app//tags/api-610/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-pump</guid>
+    <title>Pemeliharaan Pompa</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-pump</link>
+    <description>Pompa adalah suatu perangkat mekanis yang digunakan untuk mengalirkan cairan dari satu tempat ke tempat lain.</description>
+    <pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>pompa</category><category>API-610</category>
+  </item>
+
+    </channel>
+  </rss>

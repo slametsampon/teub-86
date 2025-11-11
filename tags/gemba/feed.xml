@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>CMMS - PON</title>
+      <link>https://cmms-nextjs.vercel.app//blog</link>
+      <description>CMMS - PT. Petro Oxo Nusantara</description>
+      <language>en-us</language>
+      <managingEditor>slamet@pon.co.id (Slamet - Sam)</managingEditor>
+      <webMaster>slamet@pon.co.id (Slamet - Sam)</webMaster>
+      <lastBuildDate>Fri, 20 Oct 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://cmms-nextjs.vercel.app//tags/gemba/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-gemba-kaizen</guid>
+    <title>Gemba Kaizen</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-gemba-kaizen</link>
+    <description>Gemba Kaizen adalah sebuah konsep dalam manajemen produksi dan proses perbaikan yang berasal dari Jepang. &quot;Gemba&quot; berarti tempat kerja atau lokasi sebenarnya, sementara &quot;Kaizen&quot; berarti perbaikan berkelanjutan.</description>
+    <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>gemba</category><category>kaizen</category>
+  </item>
+
+    </channel>
+  </rss>

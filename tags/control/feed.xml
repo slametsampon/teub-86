@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>CMMS - PON</title>
+      <link>https://cmms-nextjs.vercel.app//blog</link>
+      <description>CMMS - PT. Petro Oxo Nusantara</description>
+      <language>en-us</language>
+      <managingEditor>slamet@pon.co.id (Slamet - Sam)</managingEditor>
+      <webMaster>slamet@pon.co.id (Slamet - Sam)</webMaster>
+      <lastBuildDate>Tue, 24 Oct 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://cmms-nextjs.vercel.app//tags/control/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/Control-Valve</guid>
+    <title>Control Valve</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/Control-Valve</link>
+    <description>Control valve adalah komponen dalam industri petrokimia yang berfungsi untuk mengatur flow, pressure dan temperature berbagai material seperti gas, liquid, atau media lainnya.</description>
+    <pubDate>Tue, 24 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Mengenal</category><category>Control</category><category>Valve</category>
+  </item>
+
+    </channel>
+  </rss>

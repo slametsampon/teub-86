@@ -1,0 +1,264 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>CMMS - PON</title>
+      <link>https://cmms-nextjs.vercel.app//blog</link>
+      <description>CMMS - PT. Petro Oxo Nusantara</description>
+      <language>en-us</language>
+      <managingEditor>slamet@pon.co.id (Slamet - Sam)</managingEditor>
+      <webMaster>slamet@pon.co.id (Slamet - Sam)</webMaster>
+      <lastBuildDate>Thu, 02 Nov 2023 17:00:00 GMT</lastBuildDate>
+      <atom:link href="https://cmms-nextjs.vercel.app//authors/sam/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/predictif-kontrol</guid>
+    <title>Penggunaan Predictive Control dalam Industri Petrokimia</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/predictif-kontrol</link>
+    <description>Pengendalian Prediktif (MPC) adalah metode kendali yang digunakan untuk mengoptimalkan proses-produksi dan mengendalikan sistem dinamis.</description>
+    <pubDate>Thu, 02 Nov 2023 17:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Predictif</category><category>kontrol</category><category>close-loop</category><category>open-loop</category><category>kointrol-otomatis</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-fishbone-diagram</guid>
+    <title>Optimasi Proses dalam Industri Petrokimia Menggunakan Fishbone Diagram</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-fishbone-diagram</link>
+    <description>Petrokimia adalah industri yang kompleks dan sangat bergantung pada efisiensi operasional. Kesalahan kecil dalam proses produksi dapat memiliki dampak besar, baik dari segi lingkungan maupun keuangan. Dalam artikel ini, kita akan menjelaskan bagaimana Fishbone Diagram, juga dikenal sebagai Diagram Ishikawa atau Diagram Tulang Ikan, dapat digunakan untuk menganalisis dan mengoptimalkan proses dalam industri petrokimia.</description>
+    <pubDate>Thu, 26 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>FTA</category><category>rcfa</category><category>Fishbone-Diagram</category><category>troubleshooting</category><category>Risk-Management</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-fmea</guid>
+    <title>Mengungkap Keunggulan FMEA dalam Meningkatkan Keandalan di Industri Petrokimia</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-fmea</link>
+    <description>Artikel ini akan membahas pentingnya FMEA dalam industri petrokimia dan bagaimana metode ini dapat membantu meningkatkan keandalan operasi pabrik</description>
+    <pubDate>Thu, 26 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>FTA</category><category>rcfa</category><category>fmea</category><category>Fishbone-Diagram</category><category>troubleshooting</category><category>Risk-Management</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-fta</guid>
+    <title>Mengungkap Risiko Tersembunyi - Panduan Lengkap tentang Failure Tree Analysis (FTA)</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-fta</link>
+    <description>Artikel ini akan memberikan wawasan mendalam tentang Failure Tree Analysis (FTA), sebuah teknik analisis yang kritis dalam manajemen risiko dan perbaikan sistem</description>
+    <pubDate>Wed, 25 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>FTA</category><category>rcfa</category><category>Fishbone-Diagram</category><category>troubleshooting</category><category>Risk-Management</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-rcfa</guid>
+    <title>Mengungkap Akar Masalah - Panduan Lengkap Analisis Akar Penyebab Kegagalan (RCFA)</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-rcfa</link>
+    <description>Artikel ini akan mencakup pengertian, manfaat, langkah-langkah, serta beberapa rumus dan formula yang digunakan dalam RCFA</description>
+    <pubDate>Wed, 25 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>FTA</category><category>rcfa</category><category>Fishbone-Diagram</category><category>troubleshooting</category><category>Risk-Management</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-engineering-link</guid>
+    <title>Website untuk Engineering</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-engineering-link</link>
+    <description>Website list ini adalah beberapa link yang digunakan untuk membantu pekerjaan keteknikan-engineering pada sektor industri petrokimia.</description>
+    <pubDate>Tue, 24 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Engineering</category><category>website</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-tor</guid>
+    <title>TOR - Term Of Reference</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-tor</link>
+    <description>Term of Reference (TOR) adalah dokumen yang merinci tujuan, cakupan, tugas, dan tanggung jawab dalam suatu proyek atau kontrak.</description>
+    <pubDate>Tue, 24 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>TOR</category><category>kontrak</category><category>spesifikasi</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-electrical-devices</guid>
+    <title>Peralatan Listrik Petrokimia</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-electrical-devices</link>
+    <description>Peralatan listrik pada pabrik petrokimia adalah komponen penting yang digunakan dalam proses produksi kimia dari bahan baku minyak bumi dan produk-produk turunannya.</description>
+    <pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>Listrik</category><category>NFPA-70</category><category>Risk-Management</category><category>peralatan</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-heat-exchanger</guid>
+    <title>Heat Exchanger</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-heat-exchanger</link>
+    <description>Heat exchanger (penukar panas) dalam konteks pabrik petrokimia adalah perangkat yang digunakan untuk mentransfer panas dari satu fluida ke fluida lainnya tanpa saling mencampur keduanya.</description>
+    <pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>STHE</category><category>PHE</category><category>heat-exchaner</category><category>AIChE</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-mechanical-seal</guid>
+    <title>Mechanical seal API 682</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-mechanical-seal</link>
+    <description>API 682 adalah sebuah standar yang digunakan dalam industri untuk sistem perpipaan dan seal mekanis pada pompa sentrifugal yang digunakan dalam berbagai aplikasi.</description>
+    <pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>standar</category><category>API</category><category>ASME</category><category>mechanical-seal</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-pump</guid>
+    <title>Pemeliharaan Pompa</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-pump</link>
+    <description>Pompa adalah suatu perangkat mekanis yang digunakan untuk mengalirkan cairan dari satu tempat ke tempat lain.</description>
+    <pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>pompa</category><category>API-610</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-standar-code</guid>
+    <title>Standar &amp; Code Petrochemical Plant</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-standar-code</link>
+    <description>Pabrik petrokimia mengandalkan sejumlah standar dan peraturan teknis untuk memastikan keselamatan, keandalan, dan kepatuhan dalam operasi mereka.</description>
+    <pubDate>Sat, 21 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>standar</category><category>API</category><category>ASME</category><category>ANSI</category><category>AIChE</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-bearing</guid>
+    <title>Pemeliharaan Bearing</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-bearing</link>
+    <description>Untuk melakukan maintenance bearing yang baik, ada beberapa langkah yang bisa Anda ikuti.</description>
+    <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>bearing</category><category> ISO-15243</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-electrical</guid>
+    <title>Pemeliharaan Peralatan Listrik</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-electrical</link>
+    <description>Pemeliharaan peralatan listrik di pabrik petrokimia sangat penting untuk menjaga keandalan operasi dan keselamatan.</description>
+    <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>Listrik</category><category>IEEE-141</category><category>Risk-Management</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-gemba-kaizen</guid>
+    <title>Gemba Kaizen</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-gemba-kaizen</link>
+    <description>Gemba Kaizen adalah sebuah konsep dalam manajemen produksi dan proses perbaikan yang berasal dari Jepang. &quot;Gemba&quot; berarti tempat kerja atau lokasi sebenarnya, sementara &quot;Kaizen&quot; berarti perbaikan berkelanjutan.</description>
+    <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>gemba</category><category>kaizen</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-system</guid>
+    <title>Maintenance System</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-system</link>
+    <description>Sistem maintenance pabrik petrokimia adalah suatu rangkaian proses yang bertujuan untuk menjaga, memperbaiki, dan merawat semua peralatan dan fasilitas yang digunakan dalam operasional pabrik petrokimia.</description>
+    <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>System</category><category>API RP 580</category><category>Risk-Management</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/cmms/cmms-introduction</guid>
+    <title>CMMS Introduction</title>
+    <link>https://cmms-nextjs.vercel.app//blog/cmms/cmms-introduction</link>
+    <description>CMMS featurtes and scope</description>
+    <pubDate>Sun, 28 May 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>CMMS</category><category>scope</category><category>features</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/cmms/cmms-road-map</guid>
+    <title>CMMS Road Map</title>
+    <link>https://cmms-nextjs.vercel.app//blog/cmms/cmms-road-map</link>
+    <description>CMMS Road Map</description>
+    <pubDate>Sat, 27 May 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>CMMS</category><category>scope</category><category>road-map</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/cmms/Job-Ticket</guid>
+    <title>Module Job Ticket - MJT</title>
+    <link>https://cmms-nextjs.vercel.app//blog/cmms/Job-Ticket</link>
+    <description>Job Ticket Flow Diagram, user dashboard and actions</description>
+    <pubDate>Wed, 10 May 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>CMMS</category><category>MJT</category><category>scope</category><category>features</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/cmms/activities</guid>
+    <title>Activities Module</title>
+    <link>https://cmms-nextjs.vercel.app//blog/cmms/activities</link>
+    <description>Activities Module</description>
+    <pubDate>Tue, 04 Apr 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>CMMS</category><category>scope</category><category>features</category><category>activities</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/cmms/equipment-config</guid>
+    <title>Equipment Configuration</title>
+    <link>https://cmms-nextjs.vercel.app//blog/cmms/equipment-config</link>
+    <description>Equipment setup and configuration</description>
+    <pubDate>Tue, 04 Apr 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>CMMS</category><category>scope</category><category>features</category><category>equipment</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/cmms/tbm-module</guid>
+    <title>TBM - Time Base Maintenance</title>
+    <link>https://cmms-nextjs.vercel.app//blog/cmms/tbm-module</link>
+    <description>TBM - setup, configure, planning for periodically maintenance</description>
+    <pubDate>Tue, 04 Apr 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>CMMS</category><category>scope</category><category>features</category><category>activities</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/cmms/user-role</guid>
+    <title>User Role</title>
+    <link>https://cmms-nextjs.vercel.app//blog/cmms/user-role</link>
+    <description>User Authentication and Authorization</description>
+    <pubDate>Tue, 04 Apr 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>CMMS</category><category>scope</category><category>features</category><category>user</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/cmms/work-order</guid>
+    <title>Module Work Order - MWO</title>
+    <link>https://cmms-nextjs.vercel.app//blog/cmms/work-order</link>
+    <description>Work order algorithm flow</description>
+    <pubDate>Tue, 04 Apr 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>CMMS</category><category>MWO</category><category>scope</category><category>features</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/markdown-guide</guid>
+    <title>Markdown Guide</title>
+    <link>https://cmms-nextjs.vercel.app//blog/markdown-guide</link>
+    <description>Markdown cheatsheet for all your blogging needs - headers, lists, images, tables and more! An illustrated guide based on GitHub Flavored Markdown.</description>
+    <pubDate>Fri, 11 Oct 2019 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>github</category><category>guide</category>
+  </item>
+
+    </channel>
+  </rss>

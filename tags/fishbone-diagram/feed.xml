@@ -1,0 +1,54 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>CMMS - PON</title>
+      <link>https://cmms-nextjs.vercel.app//blog</link>
+      <description>CMMS - PT. Petro Oxo Nusantara</description>
+      <language>en-us</language>
+      <managingEditor>slamet@pon.co.id (Slamet - Sam)</managingEditor>
+      <webMaster>slamet@pon.co.id (Slamet - Sam)</webMaster>
+      <lastBuildDate>Thu, 26 Oct 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://cmms-nextjs.vercel.app//tags/fishbone-diagram/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-fishbone-diagram</guid>
+    <title>Optimasi Proses dalam Industri Petrokimia Menggunakan Fishbone Diagram</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-fishbone-diagram</link>
+    <description>Petrokimia adalah industri yang kompleks dan sangat bergantung pada efisiensi operasional. Kesalahan kecil dalam proses produksi dapat memiliki dampak besar, baik dari segi lingkungan maupun keuangan. Dalam artikel ini, kita akan menjelaskan bagaimana Fishbone Diagram, juga dikenal sebagai Diagram Ishikawa atau Diagram Tulang Ikan, dapat digunakan untuk menganalisis dan mengoptimalkan proses dalam industri petrokimia.</description>
+    <pubDate>Thu, 26 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>FTA</category><category>rcfa</category><category>Fishbone-Diagram</category><category>troubleshooting</category><category>Risk-Management</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-fmea</guid>
+    <title>Mengungkap Keunggulan FMEA dalam Meningkatkan Keandalan di Industri Petrokimia</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-fmea</link>
+    <description>Artikel ini akan membahas pentingnya FMEA dalam industri petrokimia dan bagaimana metode ini dapat membantu meningkatkan keandalan operasi pabrik</description>
+    <pubDate>Thu, 26 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>FTA</category><category>rcfa</category><category>fmea</category><category>Fishbone-Diagram</category><category>troubleshooting</category><category>Risk-Management</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-fta</guid>
+    <title>Mengungkap Risiko Tersembunyi - Panduan Lengkap tentang Failure Tree Analysis (FTA)</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-fta</link>
+    <description>Artikel ini akan memberikan wawasan mendalam tentang Failure Tree Analysis (FTA), sebuah teknik analisis yang kritis dalam manajemen risiko dan perbaikan sistem</description>
+    <pubDate>Wed, 25 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>FTA</category><category>rcfa</category><category>Fishbone-Diagram</category><category>troubleshooting</category><category>Risk-Management</category>
+  </item>
+
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-rcfa</guid>
+    <title>Mengungkap Akar Masalah - Panduan Lengkap Analisis Akar Penyebab Kegagalan (RCFA)</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-rcfa</link>
+    <description>Artikel ini akan mencakup pengertian, manfaat, langkah-langkah, serta beberapa rumus dan formula yang digunakan dalam RCFA</description>
+    <pubDate>Wed, 25 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Maintenance</category><category>FTA</category><category>rcfa</category><category>Fishbone-Diagram</category><category>troubleshooting</category><category>Risk-Management</category>
+  </item>
+
+    </channel>
+  </rss>

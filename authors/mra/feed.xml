@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>CMMS - PON</title>
+      <link>https://cmms-nextjs.vercel.app//blog</link>
+      <description>CMMS - PT. Petro Oxo Nusantara</description>
+      <language>en-us</language>
+      <managingEditor>slamet@pon.co.id (Slamet - Sam)</managingEditor>
+      <webMaster>slamet@pon.co.id (Slamet - Sam)</webMaster>
+      <lastBuildDate>Mon, 06 Nov 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://cmms-nextjs.vercel.app//authors/mra/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/Steam-trap</guid>
+    <title>Steam Trap</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/Steam-trap</link>
+    <description>Steam trap adalah perangkat yang digunakan dalam sistem perpipaan untuk mengeluarkan air kondensat (air yang terbentuk ketika uap mengembun) dari dalam jalur uap dan memungkinkan hanya uap yang bersirkulasi dalam sistem.</description>
+    <pubDate>Mon, 06 Nov 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Steam</category><category>trap</category><category>spesifikasi</category>
+  </item>
+
+    </channel>
+  </rss>

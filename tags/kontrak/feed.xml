@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>CMMS - PON</title>
+      <link>https://cmms-nextjs.vercel.app//blog</link>
+      <description>CMMS - PT. Petro Oxo Nusantara</description>
+      <language>en-us</language>
+      <managingEditor>slamet@pon.co.id (Slamet - Sam)</managingEditor>
+      <webMaster>slamet@pon.co.id (Slamet - Sam)</webMaster>
+      <lastBuildDate>Tue, 24 Oct 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://cmms-nextjs.vercel.app//tags/kontrak/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-tor</guid>
+    <title>TOR - Term Of Reference</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-tor</link>
+    <description>Term of Reference (TOR) adalah dokumen yang merinci tujuan, cakupan, tugas, dan tanggung jawab dalam suatu proyek atau kontrak.</description>
+    <pubDate>Tue, 24 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>TOR</category><category>kontrak</category><category>spesifikasi</category>
+  </item>
+
+    </channel>
+  </rss>

@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>CMMS - PON</title>
+      <link>https://cmms-nextjs.vercel.app//blog</link>
+      <description>CMMS - PT. Petro Oxo Nusantara</description>
+      <language>en-us</language>
+      <managingEditor>slamet@pon.co.id (Slamet - Sam)</managingEditor>
+      <webMaster>slamet@pon.co.id (Slamet - Sam)</webMaster>
+      <lastBuildDate>Thu, 02 Nov 2023 17:00:00 GMT</lastBuildDate>
+      <atom:link href="https://cmms-nextjs.vercel.app//tags/open-loop/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/predictif-kontrol</guid>
+    <title>Penggunaan Predictive Control dalam Industri Petrokimia</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/predictif-kontrol</link>
+    <description>Pengendalian Prediktif (MPC) adalah metode kendali yang digunakan untuk mengoptimalkan proses-produksi dan mengendalikan sistem dinamis.</description>
+    <pubDate>Thu, 02 Nov 2023 17:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Predictif</category><category>kontrol</category><category>close-loop</category><category>open-loop</category><category>kointrol-otomatis</category>
+  </item>
+
+    </channel>
+  </rss>

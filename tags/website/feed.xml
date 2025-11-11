@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>CMMS - PON</title>
+      <link>https://cmms-nextjs.vercel.app//blog</link>
+      <description>CMMS - PT. Petro Oxo Nusantara</description>
+      <language>en-us</language>
+      <managingEditor>slamet@pon.co.id (Slamet - Sam)</managingEditor>
+      <webMaster>slamet@pon.co.id (Slamet - Sam)</webMaster>
+      <lastBuildDate>Tue, 24 Oct 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://cmms-nextjs.vercel.app//tags/website/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-engineering-link</guid>
+    <title>Website untuk Engineering</title>
+    <link>https://cmms-nextjs.vercel.app//blog/maintenance/maintenance-engineering-link</link>
+    <description>Website list ini adalah beberapa link yang digunakan untuk membantu pekerjaan keteknikan-engineering pada sektor industri petrokimia.</description>
+    <pubDate>Tue, 24 Oct 2023 00:00:00 GMT</pubDate>
+    <author>slamet@pon.co.id (Slamet - Sam)</author>
+    <category>Engineering</category><category>website</category>
+  </item>
+
+    </channel>
+  </rss>
