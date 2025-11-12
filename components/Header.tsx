@@ -12,7 +12,7 @@ import SearchButton from './SearchButton';
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between rounded-xl bg-green-50 px-3 py-2 shadow-sm dark:bg-gray-900">
+    <header className="flex items-center justify-between rounded-xl bg-blue-50 px-3 py-2 shadow-sm dark:bg-gray-900">
       <div>
         <Link href="/" aria-label={siteMetadata.headerTitle}>
           <div className="flex items-center justify-between">

@@ -2,8 +2,8 @@
 
 const headerNavLinks = [
   { href: '/', title: 'Home' },
-  { href: '/blog', title: 'Blog' },
   { href: '/reuni', title: 'Reuni' }, // ✅ Tambahan ini
+  { href: '/blog', title: 'Blog' },
 ];
 
 export default headerNavLinks;
