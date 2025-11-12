@@ -293,18 +293,34 @@ export default makeSource({
   onSuccess: async (importData) => {
     console.log('🚀 [onSuccess] Starting post-build process...');
     let allBlogs = [];
+
     try {
       const imported = await importData();
+
+      // 🔍 Tambahkan trace untuk ReuniDoc
+      if (Array.isArray(imported?.allReuniDocs)) {
+        console.log(
+          `📦 Total ReuniDocs ditemukan: ${imported.allReuniDocs.length}`
+        );
+        imported.allReuniDocs.forEach((doc) => {
+          console.log(`- ${doc.title} | ${doc.slug}`);
+        });
+      } else {
+        console.warn('⚠️ allReuniDocs tidak ditemukan!');
+      }
+
       if (Array.isArray(imported?.allBlogs)) {
         allBlogs = imported.allBlogs;
       } else {
         allBlogs = readAllBlogsFromFile();
       }
-    } catch {
+    } catch (err) {
+      console.warn('❌ Gagal import data:', err);
       allBlogs = readAllBlogsFromFile();
     }
 
     if (!allBlogs.length) return;
+
     createAuthorCount(allBlogs);
     createTagCount(allBlogs);
     createSearchIndex(allBlogs);

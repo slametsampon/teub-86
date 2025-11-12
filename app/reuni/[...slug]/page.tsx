@@ -11,9 +11,9 @@ import PostLayout from '@/layouts/PostLayoutReuni'; // ⬅️ Layout baru, disia
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
+  params: { slug: string[] }; // ✅ Harus array!
 }): Promise<Metadata | undefined> {
-  const slug = decodeURI(params.slug);
+  const slug = decodeURI(params.slug.join('/'));
   const post = allReuniDocs.find((p) => p.slug === slug);
 
   if (!post) return;
@@ -39,11 +39,13 @@ export async function generateMetadata({
 }
 
 export async function generateStaticParams() {
-  return allReuniDocs.map((doc) => ({ slug: doc.slug }));
+  return allReuniDocs.map((doc) => ({
+    slug: doc.slug.split('/'), // ✅ harus array
+  }));
 }
 
-export default function Page({ params }: { params: { slug: string } }) {
-  const slug = decodeURI(params.slug);
+export default function Page({ params }: { params: { slug: string[] } }) {
+  const slug = decodeURI(params.slug.join('/'));
   const post = allReuniDocs.find((p) => p.slug === slug);
 
   if (!post) {

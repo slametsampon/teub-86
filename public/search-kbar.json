@@ -1,5 +1,50 @@
 [
   {
+    "id": "reuni/formatur-teub-40",
+    "name": "Formatur TEUB-86 ke 40",
+    "section": "CONTENT",
+    "href": "/teub-86/blog/reuni/formatur-teub-40",
+    "subtitle": "9 November 2025",
+    "keywords": []
+  },
+  {
+    "id": "reuni/warung-kemarang-2020",
+    "name": "Reuni 2020, Banyuwangi",
+    "section": "CONTENT",
+    "href": "/teub-86/blog/reuni/warung-kemarang-2020",
+    "subtitle": "9 November 2025",
+    "keywords": []
+  },
+  {
+    "id": "website/github-custom-domain",
+    "name": "Deploy Next.js ke GitHub Pages dengan Custom Domain Gratis",
+    "section": "CONTENT",
+    "href": "/teub-86/blog/website/github-custom-domain",
+    "subtitle": "10 Oktober 2025",
+    "keywords": [
+      "GitHub-Actions",
+      "deploy",
+      "custom-domain",
+      "artikel"
+    ]
+  },
+  {
+    "id": "website/konfigurtasi-blog",
+    "name": "Konfigurasi Lengkap Next.js Blog (teub-86)",
+    "section": "CONTENT",
+    "href": "/teub-86/blog/website/konfigurtasi-blog",
+    "subtitle": "8 Oktober 2025",
+    "keywords": [
+      "static-web",
+      "blog",
+      "deploy",
+      "github",
+      "contentlayer",
+      "tailwind",
+      "eslint"
+    ]
+  },
+  {
     "id": "markdown/math-formula-guide",
     "name": "Panduan Penulisan Formula Matematika dalam Block Markdown",
     "section": "CONTENT",
@@ -9,6 +54,22 @@
       "markdown",
       "formula",
       "math"
+    ]
+  },
+  {
+    "id": "rjpp",
+    "name": "RJPP - Rencana Jangka Panjang Pabrik",
+    "section": "CONTENT",
+    "href": "/teub-86/blog/rjpp",
+    "subtitle": "26 September 2024",
+    "keywords": [
+      "rencana",
+      "rjpp",
+      "budget",
+      "anggaran",
+      "jangka-panjang",
+      "gcg",
+      "bumn"
     ]
   },
   {
@@ -22,6 +83,18 @@
       "ai",
       "gpt",
       "petrokimia"
+    ]
+  },
+  {
+    "id": "design/openFoam-docker",
+    "name": "OpenFOAM - Open Field Operation and Manipulation",
+    "section": "CONTENT",
+    "href": "/teub-86/blog/design/openFoam-docker",
+    "subtitle": "9 September 2024",
+    "keywords": [
+      "OpenFOAM",
+      "cfd",
+      "docker"
     ]
   },
   {
@@ -47,6 +120,18 @@
       "prompt-engineering",
       "ai",
       "gpt"
+    ]
+  },
+  {
+    "id": "website/deploying-next-apps",
+    "name": "Deploying Next.js Apps",
+    "section": "CONTENT",
+    "href": "/teub-86/blog/website/deploying-next-apps",
+    "subtitle": "2 Januari 2023",
+    "keywords": [
+      "vercel",
+      "tailwind",
+      "deploy"
     ]
   },
   {

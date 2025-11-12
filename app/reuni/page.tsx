@@ -2,18 +2,20 @@
 
 import { allReuniDocs } from 'contentlayer/generated';
 import { sortPosts, allCoreContent } from 'pliny/utils/contentlayer';
-import { Metadata } from 'next';
 import SimpleListLayout from '@/layouts/SimpleListLayout';
-
-export const metadata: Metadata = {
-  title: 'Reuni TEUB-86',
-  description: 'Dokumentasi kegiatan reuni alumni TEUB-86',
-};
 
 const POSTS_PER_PAGE = 10;
 
 export default function ReuniPage() {
-  const posts = allCoreContent(sortPosts(allReuniDocs));
+  const rawPosts = sortPosts(allReuniDocs);
+
+  // 🔍 Tambahkan log ini
+  console.log('📦 Total ReuniDocs ditemukan:', rawPosts.length);
+  rawPosts.forEach((doc) => {
+    console.log(`- ${doc.title} | ${doc.slug}`);
+  });
+
+  const posts = allCoreContent(rawPosts);
   const pageNumber = 1;
   const initialDisplayPosts = posts.slice(
     POSTS_PER_PAGE * (pageNumber - 1),
